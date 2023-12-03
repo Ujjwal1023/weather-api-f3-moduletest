@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Montserrat&family=Roboto&family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #360369;
+    color: white;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 30vh;
+}
+/* button{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 33vw;
+    transition: all 0.5s;
+    background-color: white;
+} */
+.btn{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 200px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 33vw;
+}
+
+@media screen and (max-width: 800px){
+    .btn{
+        font-size: 1rem;
+        padding: 7px 150px;
+        margin-left: 25vw;
+    }
+    h1{
+        font-size: 6rem;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 520px){
+    .btn{
+        font-size: 1rem;
+        padding: 7px 100px;
+        margin-left: 20vw;
+    }
+    h1{
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 360px){
+    .btn{
+        font-size: 1rem;
+        padding: 7px 50px;
+        margin-left: 15vw;
+    }
+    h1{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 230px){
+    .btn{
+        font-size: 1rem;
+        padding: 6px 30px;
+        margin-left: 10vw;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+}

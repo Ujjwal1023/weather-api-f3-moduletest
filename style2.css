@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Montserrat&family=Roboto&family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+}
+.container{
+    overflow-y: auto;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.top{
+    background: #360369;
+    color: white;
+    height: 80vh;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.lon-lat{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(39,08,70);
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.bottom{
+    color: #360369;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+h5{
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background: #360369;
+    color: white;
+    margin: 10px 20px;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+h2{
+    color: #360369;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.map{
+    margin-left: 20vw; 
+}
+
+@media screen and (max-width: 800px){
+    .lon-lat{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        width: 600px;
+        height: 270px;
+    }
+    .details{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .lon-lat{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        width: 400px;
+        height: 200px;
+        margin-left: 2vw;
+    }
+    .details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width: 359px) {
+    .lon-lat{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .map{
+        width: 200px;
+        height: 100px;
+        margin-left: 2vw;
+    }
+    .details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
